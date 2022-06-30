@@ -15,7 +15,7 @@
   
 <div class="container">
     <br />
-    <h1 class="text-center text-primary"><u>Calendrier visiteur</u></h1>
+    <h1 class="text-center text-primary"><u>Calendrier patient</u></h1>
     <br />
 
     <div id="calendar"></div>
