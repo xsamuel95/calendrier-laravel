@@ -112,9 +112,8 @@ $(document).ready(function () {
                 },
                 success:function(response)
                 {
-                    {{route('calendar/update', response)}}
                     calendar.fullCalendar('refetchEvents');
-                    alert("RDV Modifié");
+                    alert("Event Updated Successfully");
                 }
             })
         },

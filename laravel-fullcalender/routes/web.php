@@ -16,8 +16,8 @@ Route::post('full-calender/action', [FullCalenderController::class, 'action']);
 
 Route::get('calender', [CalenderController::class, 'index']);
 
-Route::post('calender/action', [CalenderController::class, 'action']);
+//Route::post('calender/action', [CalenderController::class, 'action']);
 
-Route::post('calendrier/update', [CalenderController::class, 'update']);
+//oute::post('calendrier/update', [CalenderController::class, 'update']);
 
 ?>

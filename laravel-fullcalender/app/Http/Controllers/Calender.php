@@ -48,7 +48,7 @@ class CalenderController extends Controller
     		}
     	}
     }
-    public function update(Request $request)
+     /*public function update(Request $request)
     {
         $validated = $request->validate([
             'title' => 'required|unique:posts|max:255',
@@ -57,6 +57,6 @@ class CalenderController extends Controller
         ]);
         // Modèle
         return view('calender')->with('validated', $validated);
-    }
+    } */
 }
 ?>
